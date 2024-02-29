@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <!-- <img src="/images/1.png" class="w-[400px]" /> -->
+                  
+              <img src="/images/1.png"  class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="/images/1.png"  class="w-full" />
+                <!-- <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" /> -->
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="/images/1.png"  class="w-full" />
+              <!-- <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" /> -->
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="/images/1.png"  class="w-full" />
+              <!-- <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" /> -->
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+ 
+        <section>
+            <div class="radial-progress" style="--value:50;" role="progressbar">90%</div>
+        </section>
+
+
+        <section>
+          <h1 class="text-center text-6xl font-bold mb-4">Program Sections</h1>
+          <p class="text-center mb-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat 
+            dolor. Purus urna in sit nullam proin.</p>
+
+          <div class="grid grid-cols-2 gap-4">
+
+            <!-- first -->
+            <div class="...">
+
+              <div class="hero " style="background-image: url(/images/2.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                    <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  
+                      <br>enim sagittis turpis in magna. Id et sed euismod natoque amet <br>
+                      nunc morbi nulla. Tortor congue sed et in.</p>
+                      <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Second -->
+            <div class="...">
+              
+              <div class="hero " style="background-image: url(/images/3.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                    <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  
+                      <br>enim sagittis turpis in magna. Id et sed euismod natoque amet <br>
+                      nunc morbi nulla. Tortor congue sed et in.</p>
+                      <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>  
+            <!-- Third          -->
+            <div class="col-span-2 ...">
+              
+              <div class="hero" style="background-image: url(/images/4.png);">
+
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-left text-neutral-content">
+                  <div class="...">
+                    <h1 class="mb-5 text-left text-5xl font-bold">Professional Progra</h1>
+                    <p class="mb-5 ttext-start ">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  
+                      <br>enim sagittis turpis in magna. Id et sed euismod natoque amet <br>
+                      nunc morbi nulla. Tortor congue sed et in.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+          
+          
+        </section>
+
+
+        <section>
+
+          <h1 class="text-center text-6xl font-bold mb-4">Our New Products</h1>
+          <p class="text-center mb-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> 
+            dolor. Purus urna in sit nullam proin. </p>
+
+          <div class="flex gap-4">  
+          <!-- part1 --> 
+          <div class="part1 gap-4">
+            <div class="grid grid-cols-1 gap-4"> 
+              <div class="part1a">
+
+                
+              <div class="hero bg-base-200 gap-4">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="/images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+
+              </div>
+
+
+              <div class="part1b">          
+
+            
+
+              <div class="hero  bg-base-200 gap-4">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="/images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="part1c">           
+            
+        
+
+              <div class="hero  bg-base-200 gap-4">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="/images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            </div>  
+           </div>
+
+          <!-- part2 -->
+         
+          <div class="part1 gap-4">
+            <div class="grid grid-cols-1 gap-4"> 
+              <div class="part2a">
+
+                
+              <div class="hero bg-base-200 gap-4">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="/images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+
+              </div>
+
+
+              <div class="part2b">          
+
+            
+
+              <div class="hero  bg-base-200 gap-4">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="/images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="part2c">           
+            
+        
+
+              <div class="hero  bg-base-200 gap-4">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="/images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            </div>  
+           </div>
+
+                 
+          
+        </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
